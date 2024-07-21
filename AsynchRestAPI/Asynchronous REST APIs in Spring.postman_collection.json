@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "f183e83e-a3b4-402e-bb00-2abfa3e171d0",
+		"name": "Asynchronous REST APIs in Spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37122651"
+	},
+	"item": [
+		{
+			"name": "deferredresult",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/deferredresult"
+			},
+			"response": []
+		},
+		{
+			"name": "callable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/callable"
+			},
+			"response": []
+		},
+		{
+			"name": "async",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/async"
+			},
+			"response": []
+		},
+		{
+			"name": "webflux",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/webflux"
+			},
+			"response": []
+		},
+		{
+			"name": "completable-future",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/completable-future"
+			},
+			"response": []
+		}
+	]
+}
